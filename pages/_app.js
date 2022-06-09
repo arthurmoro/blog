@@ -1,10 +1,11 @@
+import "../styles/globals.css"
 import Header from "../Components/Header"
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Header />
-      <main className="container">
+      <main className="max-w-5xl">
         <Component {...pageProps} />
       </main>
     </>
