@@ -1,6 +1,6 @@
-import "../styles/globals.css"
-import "../styles/post-page.css"
-import Header from "../Components/Header"
+import "/styles/globals.css"
+import "/styles/post-page.css"
+import Header from "/Components/Header"
 
 function MyApp({ Component, pageProps }) {
   return (
