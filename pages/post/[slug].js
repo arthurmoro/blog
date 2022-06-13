@@ -1,7 +1,7 @@
 import fs from "fs"
 import path from "path";
 import matter from "gray-matter";
-import Post from "components/Post"
+import Post from "components/Post/index.js"
 
 
 export default function Blog({ post }) {
