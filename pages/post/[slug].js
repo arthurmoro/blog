@@ -18,15 +18,15 @@ export async function getStaticPaths(props) {
 
 export async function getStaticProps(props) {
   const postFile = fs.readFileSync(path.join("posts", `${props.params.slug}.md`), "utf-8");
-  const { data: { title, date, description, cover }, content } = matter(postFile)
+  const { data, content } = matter(postFile)
 
   return {
     props: {
       post: {
-        title,
-        date,
-        description,
-        cover,
+        title: data?.title,
+        date: data?.date,
+        description: data?.description,
+        cover: data?.cover,
         content
       }
     }

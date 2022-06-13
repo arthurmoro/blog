@@ -14,22 +14,22 @@ export default function Post({ post }) {
         <div className="max-w-full">
           <div className="w-[70%] float-left">
             <h1 className="text-3xl py-10">
-              {post.title}
+              {post?.title}
             </h1>
           </div>
           <div className="w-[30%] float-left">
             <p className="text-[12px]">
-              Data da postagem: {new Date(post.date).toLocaleDateString("pt-BR")}
+              Data da postagem: {new Date(post?.date).toLocaleDateString("pt-BR")}
             </p>
 
           </div>
         </div>
 
         <div className="max-w-full float-left">
-          <h3 className="py-2">{post.description}</h3>
+          <h3 className="py-2">{post?.description}</h3>
         </div>
         <div className="max-w-full float-left"></div>
-        <div dangerouslySetInnerHTML={{ __html: marked(post.content) }} />
+        <div dangerouslySetInnerHTML={{ __html: marked(post?.content || "") }} />
       </div>
     </>
   )
