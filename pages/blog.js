@@ -2,7 +2,7 @@ import fs from "fs"
 import path from "path";
 import matter from "gray-matter";
 
-import Posts from "../Components/Posts";
+import Posts from "../components/Posts/Posts";
 
 export default function Blog({ posts }) {
   return (
@@ -16,9 +16,7 @@ export default function Blog({ posts }) {
 }
 
 export async function getStaticProps() {
-  console.log("Oxi")
   const files = fs.readdirSync(path.join("posts"));
-
   const posts = files.map(file => {
     const slug = file.replace(".md", "");
     const markdownMeta = fs.readFileSync(path.join("posts", file), "utf-8");

@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function Post({ post }) {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg">
+    <div className="max-w-sm rounded overflow-hidden float-left m-2 max-w-[30%] shadow-lg">
       <Link href={`/post/${post.slug}`}>
         <a className="hover:underline">
           <img

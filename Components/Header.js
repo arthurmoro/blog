@@ -8,7 +8,6 @@ const options = [
 
 export default function Header({ pageProps }) {
   const route = useRouter();
-  console.log()
   return (
     <div className="bg-blue-500 py-2 md:py-4">
       <div className="container px-4 mx-auto md:flex md:items-center">

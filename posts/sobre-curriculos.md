@@ -1,15 +1,10 @@
 ---
-title: 'Sobre currículos'
+title: 'Mais um post sobre currículos'
 date: '2017-06-29'
 description: 'Já se perguntou o porquê de você enviar, enviar e enviar currículos e nunca receber uma resposta? Vem comigo que eu vou te mostrar algumas dicas para aumentar suas chances de ter seu currículo selecionado para uma entrevista que você tanto deseja'
 cover: 'sobre-curriculos.jpeg'
 ---
-
-# Sobre currículos
-## Bom dia, boa tarde e boa noite à todos e todas!
-### Vamos falar um pouco sobre currículos?
-
-Recentemente a empresa na qual eu trabalho abriu uma vaga para pessoas desenvolvedoras e eu fui o selecionado para dar vazão a essa necessidade.
+Há tempos, a empresa em qual eu trabalhei abriu algumas vagas para pessoas desenvolvedoras e eu fui o selecionado para dar vazão a essa necessidade.
 
 Resolvi expor a vaga nos principais portais de vagas da area de tech e, logo após a publicação, começaram a chegar os currículos dos candidatos.
 

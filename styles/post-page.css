@@ -1,0 +1,25 @@
+.post-page p {
+  padding: 8px;
+  color: #7f7f7f;
+}
+
+.post-page h3 {
+  padding: 8px;
+  font-weight: lighter;
+  color: #7f7f7f;
+}
+
+.post-page h1 {
+  padding: 2px;
+  font-weight: bold;
+}
+
+.btn-back {
+  padding: 5px 15px;
+  border-radius: 3px;
+  margin: 5px;
+  position: absolute;
+  font-size: 12px;
+  margin-left: 16px;
+  color: white;
+}
