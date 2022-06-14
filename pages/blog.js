@@ -2,7 +2,7 @@ import fs from "fs"
 import path from "path";
 import matter from "gray-matter";
 
-import Posts from "components/Posts/Posts.js";
+import Posts from "components/Posts/Posts";
 
 export default function Blog({ posts }) {
   return (
