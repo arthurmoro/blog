@@ -1,17 +1,23 @@
 import fs from "fs"
 import path from "path";
 import matter from "gray-matter";
+import Head from "next/head";
 
 import Posts from "@/components/Posts/Posts";
 
 export default function Blog({ posts }) {
   return (
-    <div className="p-8">
-      <h2 className="text-3xl">
-        Blog
-      </h2>
-      <Posts posts={posts} />
-    </div>
+    <>
+      <Head>
+        <title>Blog - Arthur Moro</title>
+      </Head>
+      <div className="p-8">
+        <h2 className="text-3xl">
+          Blog
+        </h2>
+        <Posts posts={posts} />
+      </div>
+    </>
   )
 }
 
