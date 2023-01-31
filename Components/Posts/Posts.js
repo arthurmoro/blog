@@ -1,4 +1,4 @@
-import Post from "../Posts/Post";
+import Post from "@/components/Post";
 
 function Posts({ posts }) {
   return (
