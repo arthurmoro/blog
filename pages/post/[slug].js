@@ -2,11 +2,17 @@ import fs from "fs"
 import path from "path";
 import matter from "gray-matter";
 import Post from "@/components/Post"
+import Head from "next/head";
 
 
 export default function Blog({ post }) {
   return (
-    <Post post={post} />
+    <>
+      <Head>
+        <title>{post.title}</title>
+      </Head>
+      <Post post={post} />
+    </>
   )
 }
 
