@@ -9,7 +9,7 @@ export default function Blog({ post }) {
   return (
     <>
       <Head>
-        <title>{post.title}</title>
+        <title>{post?.title}</title>
       </Head>
       <Post post={post} />
     </>
