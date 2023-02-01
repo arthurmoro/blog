@@ -2,6 +2,7 @@ import "styles/globals.css"
 import "styles/post-page.css"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
+import Script from "next/script"
 
 function MyApp({ Component, pageProps }) {
   return (
