@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -10,11 +11,11 @@ export default function Footer() {
           </div>
           <div className="md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0">
             me siga nas redes:
-            <a style={{ paddingRight: "5px", paddingLeft: "5px" }} target="_blank" href="https://github.com/arthurmoro">
-              <img src="./icons/github.svg"></img>
+            <a rel="noreferrer" style={{ paddingRight: "5px", paddingLeft: "5px" }} target="_blank" href="https://github.com/arthurmoro">
+              <Image alt="ícone do github em preto em branco" src="./icons/github.svg"></Image>
             </a>
-            <a target="_blank" href="https://linkedin.com/in/arthurmoro">
-              <img src="./icons/linkedin.svg"></img>
+            <a rel="noreferrer" target="_blank" href="https://linkedin.com/in/arthurmoro">
+              <Image alt="ícone do linkedin em preto e branco" src="./icons/linkedin.svg"></Image>
             </a>
           </div>
         </div>
