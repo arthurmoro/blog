@@ -1,6 +1,7 @@
 import "styles/globals.css"
 import "styles/post-page.css"
 import Header from "@/components/Header"
+import Footer from "@/components/Footer"
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -9,6 +10,7 @@ function MyApp({ Component, pageProps }) {
       <main className="max-w-7xl my-0 mx-auto">
         <Component {...pageProps} />
       </main>
+      <Footer />
     </>
   )
 }
