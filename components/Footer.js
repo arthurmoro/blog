@@ -12,10 +12,10 @@ export default function Footer() {
           <div className="md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0">
             me siga nas redes:
             <a rel="noreferrer" style={{ paddingRight: "5px", paddingLeft: "5px" }} target="_blank" href="https://github.com/arthurmoro">
-              <Image alt="ícone do github em preto em branco" src="./icons/github.svg"></Image>
+              <Image width="25px" height="25px" alt="ícone do github em preto em branco" src="/icons/github.svg"></Image>
             </a>
             <a rel="noreferrer" target="_blank" href="https://linkedin.com/in/arthurmoro">
-              <Image alt="ícone do linkedin em preto e branco" src="./icons/linkedin.svg"></Image>
+              <Image width="25px" height="25px" alt="ícone do linkedin em preto e branco" src="/icons/linkedin.svg"></Image>
             </a>
           </div>
         </div>
