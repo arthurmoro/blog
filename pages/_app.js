@@ -15,13 +15,15 @@ function MyApp({ Component, pageProps }) {
 
           __html: `
             window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
+            function gtag(){ 
+              dataLayer.push(arguments); 
+            }
             gtag('js', new Date());
             gtag('config', 'G-LNDBCZFX4Q');
           `
         }} />
       <Header />
-      <main className="max-w-7xl my-0 mx-auto">
+      <main className="container px-4 mx-auto">
         <Component {...pageProps} />
       </main>
       <Footer />

@@ -8,7 +8,7 @@ export default function Home() {
         <title>Arthur Moro</title>
       </Head>
 
-      <div className=" container sm">
+      <div className="p-4 container">
         <h1 className="">
           Olá, mundo!
         </h1>

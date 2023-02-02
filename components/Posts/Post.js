@@ -1,11 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
-import Head from "next/head"
 import Link from "next/link"
 
 export default function Post({ post }) {
   return (
     <>
-      <div className="max-w-sm rounded overflow-hidden float-left m-2 max-w-[30%] shadow-lg">
+      <div className="max-w-sm rounded float-left s:max-w-[100%] m:max-w-[30%] shadow-lg">
         <Link href={`/post/${post.slug}`}>
           <a className="hover:underline">
             <img
