@@ -1,14 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link"
 import { marked } from "marked";
+import { Container } from "react-bootstrap";
 
 export default function Post({ post }) {
   return (
-    <>
+    <Container>
       <Link href="/blog">
-        <a className="bg-blue-500 hover:bg-blue-400 btn-back">
+        <p style={{ padding: "5px", cursor: "pointer" }}>
           Voltar
-        </a>
+        </p>
       </Link>
       <div className="post-page max-w-4xl mx-auto my-0	p-8">
         <div className="max-w-full">
@@ -31,6 +32,6 @@ export default function Post({ post }) {
         <div className="max-w-full float-left"></div>
         <div dangerouslySetInnerHTML={{ __html: marked(post?.content || "") }} />
       </div>
-    </>
+    </Container>
   )
 }

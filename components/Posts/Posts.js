@@ -1,11 +1,10 @@
 import Post from "@/components/Posts/Post";
+import { Container } from "react-bootstrap";
 
 function Posts({ posts }) {
   return (
     <section>
-      <div className="p-4 container">
-        {posts?.map((post, index) => (<Post key={index} post={post} />))}
-      </div>
+      {posts?.map((post, index) => (<Post key={index} post={post} />))}
     </section>
   )
 }

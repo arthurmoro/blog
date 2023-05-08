@@ -1,12 +1,9 @@
 import Head from "next/head";
+import { Container, Navbar } from "react-bootstrap";
 
 export default function Home() {
   return (
     <>
-
-      <Head>
-        <title>Arthur Moro</title>
-      </Head>
 
       <div className="p-4 container">
         <h1 className="">

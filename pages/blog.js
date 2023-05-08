@@ -4,10 +4,11 @@ import matter from "gray-matter";
 import Head from "next/head";
 
 import Posts from "@/components/Posts/Posts";
+import { Container } from "react-bootstrap";
 
 export default function Blog({ posts }) {
   return (
-    <>
+    <Container>
       <Head>
         <title>Blog - Arthur Moro</title>
       </Head>
@@ -17,7 +18,7 @@ export default function Blog({ posts }) {
         </h2>
         <Posts posts={posts} />
       </div>
-    </>
+    </Container>
   )
 }
 

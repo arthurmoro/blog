@@ -1,30 +1,22 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link"
+import { Button, Card, Col } from "react-bootstrap"
 
 export default function Post({ post }) {
   return (
-    <>
-      <div className="max-w-sm rounded float-left s:max-w-[100%] m:max-w-[30%] shadow-lg">
-        <Link href={`/post/${post.slug}`}>
-          <a className="hover:underline">
-            <img
-              className="w-full" src={`/${post.cover}`}
-              alt={post.title}
-            />
-            <div className="px-6 py-4">
-              <p className="font-bold text-xl mb-2">{post.title}</p>
-              <p className="text-gray-700 text-base">{post.description}</p>
-            </div>
-          </a>
-        </Link>
-        <div className="px-6 pt-4 pb-2">
-          {
-            post.tags?.map(tag => {
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{tag}</span>
-            })
-          }
-        </div>
-      </div>
-    </>
+    <Col>
+      <Card style={{ width: "30%" }}>
+        <Card.Img variant="top" src={`/${post.cover}`} />
+        <Card.Body>
+          <Card.Title>{post.title}</Card.Title>
+          <Card.Text>
+            {post.description}
+          </Card.Text>
+          <Link href={`/post/${post.slug}`}>
+            <Button href="" variant="primary">Visualizar</Button>
+          </Link>
+        </Card.Body>
+      </Card>
+    </Col>
   )
 }

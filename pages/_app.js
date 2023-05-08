@@ -1,4 +1,4 @@
-import "styles/globals.css"
+import "styles/bootstrap.min.css"
 import "styles/post-page.css"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
@@ -12,7 +12,6 @@ function MyApp({ Component, pageProps }) {
         id='google-analytics'
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
-
           __html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){ 
@@ -23,9 +22,7 @@ function MyApp({ Component, pageProps }) {
           `
         }} />
       <Header />
-      <main className="container px-4 mx-auto">
-        <Component {...pageProps} />
-      </main>
+      <Component {...pageProps} />
       <Footer />
     </>
   )
