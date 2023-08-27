@@ -4,8 +4,8 @@ import { Button, Card, Col } from "react-bootstrap"
 
 export default function Post({ post }) {
   return (
-    <Col>
-      <Card style={{ width: "30%" }}>
+    <Col style={{ width: "30%" }}>
+      <Card>
         <Card.Img variant="top" src={`/${post.cover}`} />
         <Card.Body>
           <Card.Title>{post.title}</Card.Title>
