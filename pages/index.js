@@ -12,7 +12,8 @@ export default function Home() {
           Olá, mundo!
         </h1>
         <p>
-          Me chamo Arthur Moro.
+          Me chamo Arthur Moro. <br />
+          Atualmente estou atuando como desenvolvedor Sênior <a style={{ textDecoration: "none", color: "#032CFC" }} href="https://globo.com">@Globo</a> e como consultor <a style={{ textDecoration: "none", color: "#FB7874" }} href="https://singu.com.br">@Singu</a>
         </p>
         <p>Sou um desenvolvedor web full stack desde 2012 e já consegui várias ansiedades advindas da programação (mas também, muitas conquistas)</p>
         <p>Com todo esse tempo de trabalho, fui capaz de desenvolver a habilidade de tirar um projeto do papel e leva-lo até o deploy (menos o design).</p>
