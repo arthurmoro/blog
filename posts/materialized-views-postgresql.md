@@ -1,7 +1,7 @@
 ---
 title: "Materialized Views no PostgreSQL"
 date: "2023-08-27"
-description: "Materialized Views podem alternativas mais performáticas, porém mais caras, para suas views que estejam sobrecarregando seu banco de dados."
+description: "Materialized Views podem ser alternativas mais performáticas, porém mais caras, para suas views que estejam sobrecarregando seu banco de dados."
 cover: "banco-de-dados.png"
 ---
 
