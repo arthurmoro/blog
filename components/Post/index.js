@@ -6,6 +6,11 @@ import { Container } from "react-bootstrap";
 export default function Post({ post }) {
   return (
     <Container>
+      <meta
+        name="description"
+        content={post?.description}
+      />
+
       <Link href="/blog">
         <p style={{ padding: "5px", cursor: "pointer" }}>
           Voltar
