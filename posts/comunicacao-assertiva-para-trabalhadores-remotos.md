@@ -1,11 +1,11 @@
 ---
 title: "Comunicação assertirva para trabalhadores remotos"
-date: "2023-08-27"
-description: "Comunicação assertiva e/ou assíncrona para trabalhadores remotos."
+date: "2024-01-05"
+description: ""
 cover: "comunicacao-assertiva.png"
 ---
 
-# Comunicação assertirva para trabalhadores remotos
+## Comunicação assertirva para trabalhadores remotos
 
 **Trabalhar remotamente é muito bom**. Você tem mais tempo para cuidar de você, das suas relações pessoais e das tarefas cotidianas.
 Contudo, trabalhar de forma remota, muitas vezes, demanda **muita comunicação** e, nem sempre, ela irá acontecer de **forma síncrona**.
