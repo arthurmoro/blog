@@ -19,7 +19,7 @@ Submódulos Git permitem que você inclua repositórios Git externos (ou interno
 
 ### Vantagens
 
-- Alterações são injetadas diretamente, sem necessidade de publicar um novo pacote.
+- Alterações são injetadas mais facilmente. Sem precisar reinstalar um módulo, ou gerar uma nova tag, você pode migrar para uma branch e seguir com o desenvolvimento.
 - Menor tempo de espera para equipes que dependem de atualizações constantes.
 - Possibilidade de trabalhar com diferentes versões do submódulo diretamente.
 
@@ -92,6 +92,10 @@ git submodule update --init --recursive
 ```bash
 git clone --recurse-submodules GIT_URL
 ```
+
+## Dica
+
+Fiquei sempre de olho no seu package-lock e a pasta node_modules. Elas sempre guardam surpresas
 
 ## Considerações finais
 
