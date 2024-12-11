@@ -53,7 +53,7 @@ git submodule add <url-do-submodulo> ./submodules/lib
 
 ### 4. Configure o `package.json` para usar o submódulo
 
-No arquivo `package.json`, adicione o submódulo como uma dependência utilizando o formato `file:`:
+No arquivo `package.json`, adicione o submódulo como uma dependência com base no exemplo:
 
 ```json
 {
@@ -77,7 +77,7 @@ npm install
 
 Um ponto importante ao usar submódulos é garantir que todos os membros do time estejam sincronizados com as mesmas versões dos submódulos. Para isso:
 
-- Certifique-se de rodar os seguintes comandos após clonar o repositório:
+- Certifique-se de rodar os seguintes comandos para atualizar seus módulos:
 
 ```bash
 git submodule update --init --recursive
@@ -87,10 +87,16 @@ git submodule update --init --recursive
 
 ---
 
+## Clonando um repositório com submodulos (submodules)
+
+```bash
+git clone --recurse-submodules GIT_URL
+```
+
 ## Considerações finais
 
 Essa abordagem com submódulos Git pode ser especialmente útil para equipes que precisam de um fluxo mais dinâmico ao trabalhar com dependências internas. No entanto, é importante avaliar se essa solução faz sentido para o seu time e contexto, já que o uso de submódulos pode trazer complexidades adicionais, como a necessidade de comandos extras para atualizar ou sincronizar submódulos.
 
 Se implementada corretamente, essa estratégia pode trazer mais agilidade e produtividade para o time, permitindo que as dependências internas sejam atualizadas de forma rápida e integrada ao fluxo de desenvolvimento.
 
-Espero que esse guia tenha sido útil! Se você já usou submódulos ou tem dúvidas sobre o processo, compartilhe nos comentários. 🚀
+Espero que esse guia tenha sido útil! Infelizmente não fiz uma area de comentários. Mas quem sabe hihihihi 🚀
