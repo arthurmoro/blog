@@ -3,7 +3,8 @@ import { Container, Row } from "react-bootstrap";
 
 function Posts({ posts }) {
   return (
-    <Row md={4}>
+    // center this div
+    <Row md={4} className="posts-centered-list">
       {posts?.map((post, index) => (<Post key={index} post={post} />))}
     </Row>
   )
