@@ -4,7 +4,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 export default function Footer() {
   return (
     <Navbar bg="primary" variant="dark">
-      <Container>
+      <Container style={{ marginTop: "auto" }}>
         <Navbar.Brand href="#">Arthur Moro</Navbar.Brand>
         <Nav>
           <Nav.Link target="_blank" href="https://github.com/arthurmoro">
