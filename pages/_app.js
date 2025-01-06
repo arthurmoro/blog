@@ -15,7 +15,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Header />
-      <Component {...pageProps} />
+      <Component style={{
+        display: "flex",
+        flexDirection: "column",
+        minHeight: "100vh"
+      }} {...pageProps} />
       <Footer />
     </>
   )
